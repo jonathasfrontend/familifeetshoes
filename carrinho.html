@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Feet Shoes | Carrinho</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <header class="menu">
+        <div class="menu-logo">
+            <img src="assets/img/logo.jpeg" alt="" class="logo">
+            <span id="bolcard"></span>
+            <h1>Family Feet Shoes</h1>
+        </div>
+        <div class="img">
+            <a href="carrinho.html"><img src="assets/img/svg/compra.svg" alt="" class="bag"></a>
+        </div>
+    </header>
+
+    <div class="container-carrinho">
+        <div class="carrinho">
+            <div class="title-carrinho">
+                <span>Produtos</span>
+                <span>Quantidade</span>
+                <span>Preço</span>
+            </div>
+            <div class="card-produtos" id="card-produtos">
+
+            </div>
+
+            <div class="content-btns" id="content-btns">
+                <button type="button" onclick=" localStorage.clear(); location.reload();">Limpar carrinho</button>
+                <button type="button" onclick="location.href='index.html'">Continuar comprando</button>
+                <span id="total" class="total"></span>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/carrinho.js"></script>
+</body>
+</html>

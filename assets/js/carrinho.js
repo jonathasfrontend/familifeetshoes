@@ -16,8 +16,14 @@ for(i=3; i<=3; i++){
     }else{
         protutCar.innerHTML = `<h1>Não há produtos no carrinho!</h1>`
     }
-    // calculo total
-    const total = document.getElementById("total");
-    var valor = parseInt( objJson.produtos[0].preco) + parseInt( objJson.produtos[1].preco) + parseInt( objJson.produtos[2].preco) + parseInt( objJson.produtos[3].preco) + parseInt( objJson.produtos[4].preco) + parseInt( objJson.produtos[5].preco) + parseInt( objJson.produtos[6].preco);
-    total.innerHTML = `<span>Total R$`+valor+`</span>`;
+    
+    if(produtos >= 1){
+        var valor = parseInt( objJson.produtos[0].preco) + parseInt( objJson.produtos[1].preco)
+    }
+        const total = document.getElementById("total");
+
+        // var valor = parseInt( objJson.produtos[0].preco) + parseInt( objJson.produtos[1].preco) + parseInt( objJson.produtos[2].preco) + parseInt( objJson.produtos[3].preco) + parseInt( objJson.produtos[4].preco) + parseInt( objJson.produtos[5].preco) + parseInt( objJson.produtos[6].preco);
+
+        total.innerHTML = `Total R$`+valor+``;
+
 }

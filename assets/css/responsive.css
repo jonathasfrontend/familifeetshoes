@@ -1,0 +1,80 @@
+@media (max-width: 940px) {
+
+    .container .content-slide .cont-img{
+        width: 70vw;
+        height: 50%;
+    }
+    .container .content-slide .cont-img img{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width: 930px){
+    .contato{
+        padding: 3%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #dadada;
+    }
+}
+@media (max-width: 800px) {
+
+    .container .content-slide .cont-img{
+        width: 80vw;
+        height: 40%;
+    }
+    .container .content-slide .cont-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .container .content-slide .cont-slide-img .slide{
+        width: 10vw;
+        height: 10vw;
+        padding: 3px 9px;
+        margin: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .container .content-slide .cont-slide-img .slide .mini-img{
+        width: 100%;
+        padding-top:70%;
+        background-position: center;
+        background-size: cover;
+    }
+}
+@media (max-width: 735px){
+    
+    .container .content-slide .cont-img{
+        width: 80vw;
+        height: 20%;
+    }
+    .container .content-slide .cont-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .container .content-title .cont-objects .cont-objects-text h1{
+        font-size: 6vw;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    .container .content-title .cont-objects .cont-objects-text p{
+        font-size: 2.5vw;
+        font-weight: 300;
+        margin: 8% 0;
+        color: #ffffff;
+    }
+    .container .content-title .cont-objects .cont-objects-text a{
+        text-decoration: none;
+        font-size: 2.2vw;
+        font-weight: 500;
+        background-color: #131313;
+        color: #ffffff;
+        border-radius: 3px;
+        padding: 10px;
+        transition: 0.3s ease;
+    }
+}

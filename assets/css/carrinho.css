@@ -10,7 +10,7 @@ html{
     scroll-behavior: smooth;
 }
 
-.menu{
+.menu-car{
     position: absolute;
     width: 100%;
     padding: 10px 5%;
@@ -19,15 +19,15 @@ html{
     justify-content: space-between;
     z-index: 10000;
 }
-.menu .img-bag .content-menu ul{
+.menu-car .img-bag-car .content-menu-car ul{
     list-style: none;
     display: flex;
     align-items: center;
 }
-.menu .img-bag .content-menu ul li{
+.menu-car .img-bag-car .content-menu-car ul li{
     margin: 0 10px;
 }
-.menu .img-bag .content-menu ul li a{
+.menu-car .img-bag-car .content-menu-car ul li a{
     text-decoration: none;
     color: #ffffff;
     border-radius: 5px;
@@ -35,36 +35,36 @@ html{
     font-size: 16px;
     transition: 0.3s ease;
 }
-.menu .img-bag .content-menu ul li a:hover{
+.menu-car .img-bag-car .content-menu-car ul li a:hover{
     background-color: #ffffff;
     color: #000000;
     transform-origin: bottom;
 }
-.menu .menu-logo{
+.menu-car .menu-logo-car{
     display: flex;
     align-items: center;
 }
-.menu .menu-logo .logo{
+.menu-car .menu-logo-car .logo{
     position: relative;
     width: 50px;
     height: 50px;
     margin-right: 20px;
     filter: invert(3);
 }
-.menu .menu-logo h1{
+.menu-car .menu-logo-car h1{
     font-size: 20px;
     font-weight: 500;
     font-family: 'Quicksand', sans-serif;
     color: #ffffff;
 }
-.menu .img-bag{
+.menu-car .img-bag-car{
     display: flex;
     align-items: center;
 }
-.menu .img-bag .img-bag-img a .bag{
+.menu-car .img-bag-car .img-bag-img-car a .bag{
     width: 20px;
 }
-.menu .img-bag .bolcard{
+.menu-car .img-bag-car .bolcard{
     position: absolute;
     margin:-12px 0 0 -6px;
     width: 10px;

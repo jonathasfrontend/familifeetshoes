@@ -1,0 +1,32 @@
+@media (max-width: 580px){
+    .menu-car .img-bag-car .content-menu-car ul li{
+        margin: 0 0;
+    }
+    .menu-car .img-bag-car .content-menu-car ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 12px;
+        transition: 0.3s ease;
+    }
+    .menu-car .menu-logo-car .logo{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+        filter: invert(3);
+    }
+}
+@media (max-width: 810px){
+    .container-carrinho .carrinho .content-btns{
+        margin-right: 0;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: 5% 0;
+    }
+}

@@ -16,9 +16,6 @@ for(i=3; i<=3; i++){
     }else{
         protutCar.innerHTML = `<h1>Não há produtos no carrinho!</h1>`
     }
-    
 
 }
-const formPedido = document.getElementsByClassName("form-pedido");
 
-formPedido.innerHTML += `<p>`+objJson.produtos[0].nome+`Jonathas</p>`;

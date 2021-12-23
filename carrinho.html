@@ -44,26 +44,30 @@
 
             <div class="content-btns" id="content-btns">
                 <button type="button" onclick=" localStorage.clear(); location.reload();">Limpar carrinho</button>
+                <button type="button" id="finalcompra">Finalizar Compra</button>
                 <button type="button" onclick="location.href='index.html'">Continuar comprando</button>
             </div>
         </div>
-    </div>
-    <form action="https://api.staticforms.xyz/submit" method="post" class="form" id="form">
-        <input type="text" name="$Nome" placeholder="Nome">
-        <input type="email" name="email" placeholder="Email">
-        <input type="tel" name="$WhatsApp" placeholder="WhatsApp">
-        <input type="text" name="$Assunto" placeholder="Assunto">
-        <div class="form-pedido" id="form-pedido">
-            
-        </div>
-        <input type="hidden" name="accessKey" value="29ebb0ed-705e-4fd2-bbc7-97f5cc70508f">
-        <input type="hidden" name="subject" value="Cliente enviou um pedido">
-        <input type="hidden" name="_autoresponse" value="Seu Cliente enviou um novo pedido!">
-        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html">
-        <input type="submit" value="Submit">
-    </form>
 
-    <script src="assets/js/main.js"></script>
+        <form action="https://api.staticforms.xyz/submit" method="post" class="form" id="form">
+            <img src="assets/img/svg/close-outline.svg" id="close" class="close" alt="">
+            <input type="text" name="$Nome" placeholder="Nome">
+            <input type="email" name="email" placeholder="Email">
+            <input type="tel" name="$WhatsApp" placeholder="WhatsApp">
+            <input type="text" name="$Assunto" placeholder="Assunto">
+            <textarea name="$pedido" id="pedido" read-only cols="30" rows="10"></textarea>
+            <input type="hidden" name="accessKey" value="29ebb0ed-705e-4fd2-bbc7-97f5cc70508f">
+            <input type="hidden" name="subject" value="Cliente enviou um pedido">
+            <input type="hidden" name="_autoresponse" value="Seu Cliente enviou um novo pedido!">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html">
+            <input type="submit" class="btnenviar" value="Enviar">
+        </form>
+    </div>
+    
+    
+
+    <!-- <script src="assets/js/main.js"></script> -->
     <script src="assets/js/carrinho.js"></script>
+    <script src="assets/js/test.js"></script>
 </body>
 </html>

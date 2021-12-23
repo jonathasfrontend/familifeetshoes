@@ -340,10 +340,9 @@ html{
 .container-carrinho .carrinho .content-btns{
     margin-right: 0;
     bottom: 0;
-    width: 300px;
+    width: 100%;
     display: flex;
     align-items: center;
-    flex-direction: column;
     justify-content: space-between;
     margin: 5% 0;
 }
@@ -353,17 +352,11 @@ html{
     background-color: #000000;
     color: #ffffff;
     font-size: 16px;
-    width: 100%;
-    padding: 6px 0;
-    margin: 3% 0;
+    width: 280px;
+    height: 40px;
+    /* margin: 3% 20px 0 0; */
     border-radius: 5px;
     cursor: pointer;
-}
-.container-carrinho .carrinho .content-btns .total{
-    border: 1px solid #000000;
-    padding: 6px 10px;
-    border-radius: 5px;
-    font-size: 20px;
 }
 /* ######################################################### */
 

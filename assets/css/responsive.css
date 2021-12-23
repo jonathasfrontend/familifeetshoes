@@ -78,3 +78,23 @@
         transition: 0.3s ease;
     }
 }
+@media (max-width: 480px){
+    .menu .img-bag .content-menu ul li{
+        margin: 0 0px;
+    }
+    .menu .img-bag .content-menu ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 12px;
+        transition: 0.3s ease;
+    }
+    .menu .menu-logo .logo{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+        filter: invert(3);
+    }
+}

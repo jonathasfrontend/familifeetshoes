@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Family Feet Shoes | Carrinho</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/shoes_logo.png" type="image/x-png">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
     <header class="menu">
         <div class="menu-logo">
-            <img src="assets/img/shoes_logo_ofc_hd.png" alt="" class="logo">
+            <img src="assets/img/shoes_logo_hd.png" alt="" class="logo">
             <span id="bolcard"></span>
         </div>
         <div class="img-bag" id="img-bag">
             <div class="content-menu">
                 <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#prod">Produtos</a></li>
+                    <li><a href="index.html#inicio">Inicio</a></li>
+                    <li><a href="index.html#prod">Produtos</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </div>
@@ -42,10 +44,24 @@
             <div class="content-btns" id="content-btns">
                 <button type="button" onclick=" localStorage.clear(); location.reload();">Limpar carrinho</button>
                 <button type="button" onclick="location.href='index.html'">Continuar comprando</button>
-                <span id="total" class="total"></span>
             </div>
         </div>
     </div>
+    <form action="https://api.staticforms.xyz/submit" method="post" class="form" id="form">
+        <input type="text" name="$Nome" placeholder="Nome">
+        <input type="email" name="email" placeholder="Email">
+        <input type="tel" name="$WhatsApp" placeholder="WhatsApp">
+        <input type="text" name="$Assunto" placeholder="Assunto">
+        <div class="form-pedido" id="form-pedido">
+            
+        </div>
+        <input type="hidden" name="accessKey" value="29ebb0ed-705e-4fd2-bbc7-97f5cc70508f">
+        <input type="hidden" name="subject" value="Cliente enviou um pedido">
+        <input type="hidden" name="_autoresponse" value="Seu Cliente enviou um novo pedido!">
+        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html">
+        <input type="submit" value="Submit">
+    </form>
+
     <script src="assets/js/main.js"></script>
     <script src="assets/js/carrinho.js"></script>
 </body>

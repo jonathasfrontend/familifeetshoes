@@ -90,6 +90,8 @@ const inicializarLoja = () => {
     })
 }
 inicializarLoja();
+
+function bolladd(){
     const bagSvg = document.getElementById("bolcard");
     const bagDiv = document.getElementById("img-bag-boll");
     const produtos = localStorage.getItem('carrinho');
@@ -100,6 +102,7 @@ inicializarLoja();
     }else{
         bagSvg.style.display = "none";
     }
+}
 }
 
 function atualizarCarrinho(nome, quantidade = 1, preco) {
@@ -132,6 +135,7 @@ function atualizarCarrinho(nome, quantidade = 1, preco) {
         localStorage.setItem("carrinho", JSON.stringify(outrosProdutos))
     }
     alert("Produto adicionado ao carrinho!");
+    bolladd();
 }
 
 

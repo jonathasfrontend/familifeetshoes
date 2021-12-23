@@ -44,8 +44,8 @@
 
             <div class="content-btns" id="content-btns">
                 <button type="button" onclick=" localStorage.clear(); location.reload();">Limpar carrinho</button>
-                <button type="button" id="finalcompra">Finalizar Compra</button>
                 <button type="button" onclick="location.href='index.html'">Continuar comprando</button>
+                <button type="button" id="finalcompra">Finalizar Compra</button>
             </div>
         </div>
 
@@ -55,7 +55,7 @@
             <input type="email" name="email" placeholder="Email">
             <input type="tel" name="$WhatsApp" placeholder="WhatsApp">
             <input type="text" name="$Assunto" placeholder="Assunto">
-            <textarea name="$pedido" id="pedido" read-only cols="30" rows="10"></textarea>
+            <textarea name="$pedido" id="pedido" readonly placeholder="Seu pedido" cols="30" rows="10"></textarea>
             <input type="hidden" name="accessKey" value="29ebb0ed-705e-4fd2-bbc7-97f5cc70508f">
             <input type="hidden" name="subject" value="Cliente enviou um pedido">
             <input type="hidden" name="_autoresponse" value="Seu Cliente enviou um novo pedido!">

@@ -98,3 +98,15 @@
         filter: invert(3);
     }
 }
+@media (max-width: 810px){
+    .container-carrinho .carrinho .content-btns{
+        margin-right: 0;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: 5% 0;
+    }
+}

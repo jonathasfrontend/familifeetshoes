@@ -14,3 +14,5 @@ close.addEventListener("click", function(){
 
 const formPedido = document.querySelector("#pedido");
 formPedido.innerHTML += `Nome: `+objJson.produtos[0].nome+`, Quantidade: `+objJson.produtos[0].quantidade+`, R$`+objJson.produtos[0].preco+``;
+formPedido.innerHTML += ` Nome: `+objJson.produtos[1].nome+`, Quantidade: `+objJson.produtos[1].quantidade+`, R$`+objJson.produtos[1].preco+``;
+formPedido.innerHTML += ` Nome: `+objJson.produtos[2].nome+`, Quantidade: `+objJson.produtos[2].quantidade+`, R$`+objJson.produtos[1].preco+``;

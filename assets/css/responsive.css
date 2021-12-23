@@ -110,3 +110,24 @@
         margin: 5% 0;
     }
 }
+@media (max-width: 875px){
+    .container-pedido{
+        position: relative;
+        max-width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: radial-gradient(#4b4b4b, #0f0f0f);
+        text-align: center;
+    }
+    .container-pedido .img-pedido{
+        width: 80px;
+        height: 80px;
+        margin: 2%;
+    }
+    .container-pedido .img-pedido img{
+        width: 100%;
+    }
+}
